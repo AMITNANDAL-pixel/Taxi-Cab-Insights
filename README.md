@@ -228,6 +228,11 @@ This report will help identify cities with high repeat trip frequency, which can
 ![mutiple trip data](https://github.com/user-attachments/assets/d3bb5e8f-5b09-423b-8dcd-b01b2f6c854f)
 
 
+# Mutiple trips taken by repeated passenger by city
+![Picture7](https://github.com/user-attachments/assets/28e64feb-3441-4dec-a47d-5857dfb7ca48)
+
+
+
 
 
 
