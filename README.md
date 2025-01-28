@@ -185,7 +185,8 @@ Fields:
 
 
 
-  dax used :monthyear = FORMAT(fact_trips[date].[Date],"MMMM YYYY")
+  dax used :
+  monthyear = FORMAT(fact_trips[date].[Date],"MMMM YYYY")
   
    performance vs target = IF(fact_trips[total actual trip count]>fact_trips[total target trip],"above the target","below the target")
 
