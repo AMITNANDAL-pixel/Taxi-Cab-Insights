@@ -26,7 +26,7 @@ Fields:
 •	%_contribution_to_totaI_trips
 
 
-![AVERAGE FARE PER KM](https://github.com/user-attachments/assets/984da594-2411-42d6-8ead-5db410da9de5)
+
 
 
 
@@ -110,6 +110,50 @@ Fields:
 •	monthly repeat	passenger rate (%): Repeat passenger rate at the city and month level
 
 •	city repeat_passenger rate (%): Overall repeat passenger rate for each city, aggregated across months
+
+
+
+
+
+
+
+## Solution :
+
+# Business Request - 1: City-Level Fare and Trip Summary Report
+
+Generate a report that displays the total trips, average fare per km, average fare per trip, and the percentage contribution of each city’s trips to the overall trips. This report will help in assessing trip volume, pricing efficiency, and each city’s contribution to the overall trip count.
+Fields:
+
+•	city name
+
+•	totaI_trips
+
+•	avg_fare_per_km
+
+•	avg fare per trip
+
+•	%_contribution_to_totaI_trips
+
+
+
+
+
+# Average Fare per KM 
+
+
+![AVERAGE FARE PER KM](https://github.com/user-attachments/assets/e1fc2ca5-4670-4915-90f5-368db7c05d0d)
+
+
+# total fare vs city 
+![total fare by city](https://github.com/user-attachments/assets/d16984be-1f8f-45a5-be55-f56b713db907)
+
+
+# average fare per trip vs city 
+
+![average fare per trip vs city](https://github.com/user-attachments/assets/7fcd3913-a51f-4237-ba48-db449452b7cb)
+
+
+
 
 
 
