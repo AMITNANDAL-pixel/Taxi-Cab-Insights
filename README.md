@@ -153,6 +153,12 @@ Fields:
 ![average fare per trip vs city](https://github.com/user-attachments/assets/7fcd3913-a51f-4237-ba48-db449452b7cb)
 
 
+# city level fare and trip summary 
+
+![city level fare and trip summary](https://github.com/user-attachments/assets/5a26fe12-ed19-4301-b405-50d2835f13ff)
+
+
+
 
 
 
