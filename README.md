@@ -161,10 +161,43 @@ Fields:
 
 
 
+# Business Request - 2: MonthIy City-Level Trips Target Performance Report
+
+Generate a report that evaluates the target performance for trips at the monthly and city level. For each city and month, compare the actual total trips with the target trips and categorise the performance as follows:
+
+•	If actual trips are greater than target trips, mark it as "Above Target".
+•	If actual trips are less than or equal to target trips, mark it as "Below Target".
+
+Additionally, calculate the % difference between actual and target trips to quantify the performance gap.
+Fields:
+
+•	City_name
+
+•	month name
+
+•	actual trips
+
+•	target_trips
+
+•	performance status
+
+•	% difference
 
 
 
+  dax used :monthyear = FORMAT(fact_trips[date].[Date],"MMMM YYYY")
   
+   performance vs target = IF(fact_trips[total actual trip count]>fact_trips[total target trip],"above the target","below the target")
+
+   # month-city level target performance report
+
+   ![monthly city target performance report](https://github.com/user-attachments/assets/f57aefcb-3392-4076-8c7d-04da0e62051d)
+
+
+   # DEMAND VARIES WITH CITY AND MONTH
+   ![image](https://github.com/user-attachments/assets/0e63f58f-79ae-49d6-94cc-5a44ef80eeeb)
+
+
  	 
  
  
