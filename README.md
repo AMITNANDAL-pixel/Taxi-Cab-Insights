@@ -200,20 +200,10 @@ Fields:
 
 
    For Chandigarh city ,Feb. month have highest demand and April month lowest .
+   
 For Jaipur city ,Feb. month have highest demand and June have lowest.
 
-What It Tells
-Seasonal Trends:
-Cities with high trip counts in specific months may experience seasonal demand due to weather, festivals, or tourist activity.
-Declines in certain months may reflect off-peak seasons or external factors like holidays or economic slowdowns.
-City-specific Behavior:
-Different cities might show unique demand patterns due to local events, holidays, or cultural preferences.
-Market Dynamics:
-Cities with steady demand indicate a strong, consistent customer base.
-Fluctuating demand might suggest dependence on specific external factors like tourism or business events.
-Operational Insights:
-High-demand months might strain resources, indicating the need for additional drivers or vehicles.
-Low-demand months might require cost-cutting measures to maintain profitability.
+
 
 ![image](https://github.com/user-attachments/assets/3dbff762-589a-499d-8d6f-65c18edeac8c)
 
