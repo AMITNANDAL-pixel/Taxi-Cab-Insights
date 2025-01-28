@@ -268,6 +268,46 @@ rank = rankx(ALL(dim_city[city_name]),[Total_New_Passengers], ,DESC)
 
 
 
+# Business Request - 6: Repeat Passenger Rate Analysis Generate a report that calculates two metrics:
+1.	Monthly Repeat Passenger Rate: Calculate the repeat passenger rate for each city and month by comparing the number of repeat passengers to the total passengers.
+2.	City-wide Repeat Passenger Rate: Calculate the overall repeat passenger rate for each city, considering all passengers across months.
+
+These metrics will provide insights into monthly repeat trends as well as the overall repeat behavior for each city.
+
+Fields:
+
+•	city name
+
+•	month
+
+•	totaI_passengers
+
+•	repeat_passengers
+
+•	monthly repeat	passenger rate (%): Repeat passenger rate at the city and month level
+
+•	city repeat_passenger rate (%): Overall repeat passenger rate for each city, aggregated across months
+
+
+![picture 10](https://github.com/user-attachments/assets/b42139e7-967f-485c-b202-bc251de609cc)
+
+
+
+![picture 11](https://github.com/user-attachments/assets/b5d43139-f4d1-44c7-a18f-57646164e369)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
