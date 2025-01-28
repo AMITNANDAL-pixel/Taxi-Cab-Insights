@@ -18,8 +18,11 @@ Fields:
 •	city name
 
 •	totaI_trips
+
 •	avg_fare_per_km
+
 •	avg fare per trip
+
 •	%_contribution_to_totaI_trips
 
 
@@ -37,10 +40,15 @@ Additionally, calculate the % difference between actual and target trips to quan
 Fields:
 
 •	City_name
+
 •	month name
+
 •	actual trips
+
 •	target_trips
+
 •	performance status
+
 •	% difference
  
 # Business Request - 3: City-Level Repeat Passenger Trip Frequency Report
@@ -60,7 +68,9 @@ Generate a report that calculates the total new passengers for each city and ran
 Fields
 
 •	city name
+
 •	totaI_new_passengers
+
 •	city_category ("Top 3" or "Bottom 3")
 
 
@@ -70,8 +80,11 @@ Generate a report that identifies the month with the highest revenue for each ci
 Fields
 
 •	city_name
+
 •	highest revenue month
+
 •	revenue
+
 •	percentage contribution (%)
  
 # Business Request - 6: Repeat Passenger Rate Analysis Generate a report that calculates two metrics:
@@ -83,10 +96,15 @@ These metrics will provide insights into monthly repeat trends as well as the ov
 Fields:
 
 •	city name
+
 •	month
+
 •	totaI_passengers
+
 •	repeat_passengers
+
 •	monthly repeat	passenger rate (%): Repeat passenger rate at the city and month level
+
 •	city repeat_passenger rate (%): Overall repeat passenger rate for each city, aggregated across months
 
 
