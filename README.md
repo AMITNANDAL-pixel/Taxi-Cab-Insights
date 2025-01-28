@@ -26,6 +26,10 @@ Fields:
 •	%_contribution_to_totaI_trips
 
 
+![AVERAGE FARE PER KM](https://github.com/user-attachments/assets/984da594-2411-42d6-8ead-5db410da9de5)
+
+
+
 
 
 
