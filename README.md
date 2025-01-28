@@ -16,6 +16,7 @@ Generate a report that displays the total trips, average fare per km, average fa
 Fields:
 
 •	city name
+
 •	totaI_trips
 •	avg_fare_per_km
 •	avg fare per trip
