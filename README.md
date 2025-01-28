@@ -234,6 +234,41 @@ This report will help identify cities with high repeat trip frequency, which can
 
 
 
+# Business Request - 4: Identify Cities with Highest and Lowest Total New Passengers
+
+Generate a report that calculates the total new passengers for each city and ranks them based on this value. Identify the top 3 cities with the highest number of new passengers as well as the bottom 3 cities with the lowest number of new passengers, categorizing them as "Top 3" or "Bottom 3" accordingly.
+Fields
+
+•	city name
+
+•	totaI_new_passengers
+
+•	city_category ("Top 3" or "Bottom 3")
+
+
+
+
+dax used 
+
+categoric name = 
+SWITCH(
+    TRUE(), 
+    [rank] >= 1 && [rank]<=3, "Top",
+    [rank] >= 7&& [rank]<=10, "Bottom",
+    "Middle"
+)
+
+
+
+rank = rankx(ALL(dim_city[city_name]),[Total_New_Passengers], ,DESC)
+
+
+
+![Picture8](https://github.com/user-attachments/assets/32605b53-9e30-46c8-931f-24886e18085a)
+
+
+
+
 
 
 
