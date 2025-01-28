@@ -222,10 +222,11 @@ This report will help identify cities with high repeat trip frequency, which can
 
 
 
-![image](https://github.com/user-attachments/assets/bf515b93-68e0-4fd4-9081-669ef7130be9)
 
 
-![image](https://github.com/user-attachments/assets/8ce753fc-be31-4e67-8c37-c9f0a25ad77e)
+
+![mutiple trip data](https://github.com/user-attachments/assets/d3bb5e8f-5b09-423b-8dcd-b01b2f6c854f)
+
 
 
 
